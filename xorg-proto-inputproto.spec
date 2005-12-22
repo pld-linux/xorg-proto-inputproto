@@ -5,8 +5,8 @@ Version:	1.3.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/inputproto-%{version}.tar.bz2
-# Source0-md5:	6f02bfa0ea33e2a3473679208acb192c
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/inputproto-X11R7.0-%{version}.tar.bz2
+# Source0-md5:	0da271f396bede5b8d09a61f6d1c4484
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -32,7 +32,7 @@ Input protocol and ancillary headers.
 Nag³ówki protoko³u Input i pomocnicze.
 
 %prep
-%setup -q -n inputproto-%{version}
+%setup -q -n inputproto-X11R7.0-%{version}
 
 %build
 %{__aclocal}
