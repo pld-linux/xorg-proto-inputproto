@@ -6,7 +6,7 @@ Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
-# Source0-md5:	0da271f396bede5b8d09a61f6d1c4484
+# Source0-md5:	e0b7df0fc69f0712aa7f2161faa94e1d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
