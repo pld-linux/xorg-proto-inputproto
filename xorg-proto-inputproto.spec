@@ -32,7 +32,7 @@ Input protocol and ancillary headers.
 Nag³ówki protoko³u Input i pomocnicze.
 
 %prep
-%setup -q -n inputproto-X11R7.0-%{version}
+%setup -q -n inputproto-%{version}
 
 %build
 %{__aclocal}
