@@ -1,12 +1,12 @@
 Summary:	Input protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Input i pomocnicze
 Name:		xorg-proto-inputproto
-Version:	1.3.2
+Version:	1.4
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
-# Source0-md5:	e0b7df0fc69f0712aa7f2161faa94e1d
+# Source0-md5:	0208a5cf8ab43f10d87145f1535f7101
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
