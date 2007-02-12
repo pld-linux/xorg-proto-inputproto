@@ -1,5 +1,5 @@
 Summary:	Input protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Input i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Input i pomocnicze
 Name:		xorg-proto-inputproto
 Version:	1.4
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu Input i pomocnicze.
 
 %package devel
 Summary:	Input protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Input i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Input i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
