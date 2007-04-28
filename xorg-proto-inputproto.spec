@@ -1,12 +1,12 @@
-Summary:	Input protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Input i pomocnicze
+Summary:	Input extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Input
 Name:		xorg-proto-inputproto
-Version:	1.4.1
+Version:	1.4.2
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
-# Source0-md5:	563cc41eeb590cf5eb2127807b838dfc
+# Source0-md5:	e2c4cf4c2ad59d1e27f09381f6b4a3c3
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -14,22 +14,22 @@ BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Input protocol and ancillary headers.
+Input extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu Input i pomocnicze.
+Nagłówki rozszerzenia Input.
 
 %package devel
-Summary:	Input protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Input i pomocnicze
+Summary:	Input extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Input
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-Input protocol and ancillary headers.
+Input extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu Input i pomocnicze.
+Nagłówki rozszerzenia Input.
 
 %prep
 %setup -q -n inputproto-%{version}
