@@ -1,12 +1,12 @@
 Summary:	Input extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia Input
 Name:		xorg-proto-inputproto
-Version:	1.4.2
+Version:	1.4.2.1
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
-# Source0-md5:	e2c4cf4c2ad59d1e27f09381f6b4a3c3
+# Source0-md5:	aa948a7469168ddd9c33f11c5dff55ac
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
