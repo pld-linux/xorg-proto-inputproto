@@ -5,9 +5,8 @@ Version:	1.4.4
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-#Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
-Source0:	inputproto-20080702.tar.bz2
-# Source0-md5:	408e23bd5ab98494d7146cc240e0639e
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
+# Source0-md5:	3a532379f226c34b36a5c585999f75e4
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -33,7 +32,7 @@ Input extension headers.
 Nagłówki rozszerzenia Input.
 
 %prep
-%setup -q -n inputproto
+%setup -q -n inputproto-%{version}
 
 %build
 %{__aclocal}
