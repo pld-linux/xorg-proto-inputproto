@@ -8,9 +8,10 @@ Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/inputproto-%{version}.tar.bz2
 # Source0-md5:	c4973f2e65a0ff9a283e665b31b96bb7
 URL:		http://xorg.freedesktop.org/
+BuildRequires:	asciidoc >= 8.4.5
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
